@@ -13,7 +13,7 @@
 
 		<?php
 		foreach ($products as $product) {
-			echo "<strong> {$product-> name} </strong>- {product->description} <br>";
+			echo "<strong> {$product-> name} </strong>- {$product->description} <br>";
 		}
 		?>		
 
