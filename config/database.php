@@ -1,0 +1,20 @@
+<?php
+	use Illuminate\Database\Capsule\Manager as Capsule;
+
+	$capsule= new Capsule;
+
+	$capsule->addConnection([
+		'drive'='mysql',
+		'host'='localhost',
+		'database'='basic',
+		'username'='root',
+		'password'='',
+		'Charset'='utf8',
+		'collation'='utf8_unicode_ci',
+		'prefix'='',
+
+
+	]);
+
+	$capsule->bootEloquent();
+?>
