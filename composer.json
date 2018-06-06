@@ -1,0 +1,26 @@
+{
+    "name": "freddy/coursephp",
+    "description": "Basic course php",
+    "type": "project",
+    "require": {
+        "illuminate/database": "5.5",
+        "dompdf/dompdf": "^0.8.2"
+    },
+    "autoload":{
+
+        "Psr-4":{
+            "App\\":"App/"
+
+
+        }
+
+    },
+    "license": "MIT",
+    "authors": [    
+        {
+            "name": "freddy",
+            "email": "freddy.uzp@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
